@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "SecondViewController.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(100, 100, 100, 30);
+    [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    btn.backgroundColor = [UIColor greenColor];
+    [self.view addSubview:btn];
+ 
+}
+
+- (void)btnClick:(UIButton *)btn {
+    SecondViewController *vc = [[SecondViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 
