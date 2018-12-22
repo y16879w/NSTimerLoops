@@ -13,6 +13,7 @@
 		D555E37721CE186700BD3473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D555E37621CE186700BD3473 /* Assets.xcassets */; };
 		D555E37A21CE186700BD3473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D555E37821CE186700BD3473 /* LaunchScreen.storyboard */; };
 		D555E37D21CE186700BD3473 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D555E37C21CE186700BD3473 /* main.m */; };
+		D555E38521CE189600BD3473 /* NSTimer+LymTimerBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D555E38321CE189600BD3473 /* NSTimer+LymTimerBlock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D555E37921CE186700BD3473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D555E37B21CE186700BD3473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D555E37C21CE186700BD3473 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D555E38321CE189600BD3473 /* NSTimer+LymTimerBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+LymTimerBlock.m"; sourceTree = "<group>"; };
+		D555E38421CE189600BD3473 /* NSTimer+LymTimerBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+LymTimerBlock.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		D555E36C21CE186600BD3473 /* NSTimerLoop */ = {
 			isa = PBXGroup;
 			children = (
+				D555E38421CE189600BD3473 /* NSTimer+LymTimerBlock.h */,
+				D555E38321CE189600BD3473 /* NSTimer+LymTimerBlock.m */,
 				D555E36D21CE186600BD3473 /* AppDelegate.h */,
 				D555E36E21CE186600BD3473 /* AppDelegate.m */,
 				D555E37021CE186600BD3473 /* ViewController.h */,
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D555E37221CE186600BD3473 /* ViewController.m in Sources */,
+				D555E38521CE189600BD3473 /* NSTimer+LymTimerBlock.m in Sources */,
 				D555E37D21CE186700BD3473 /* main.m in Sources */,
 				D555E36F21CE186600BD3473 /* AppDelegate.m in Sources */,
 			);
