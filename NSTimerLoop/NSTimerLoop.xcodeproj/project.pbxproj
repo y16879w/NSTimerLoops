@@ -16,6 +16,7 @@
 		D555E38521CE189600BD3473 /* NSTimer+LymTimerBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D555E38321CE189600BD3473 /* NSTimer+LymTimerBlock.m */; };
 		D555E38821CE191700BD3473 /* LymWeakTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = D555E38721CE191700BD3473 /* LymWeakTarget.m */; };
 		D555E38B21CE1DC100BD3473 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D555E38A21CE1DC100BD3473 /* SecondViewController.m */; };
+		D555E38E21CE2A6900BD3473 /* LymGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D555E38D21CE2A6900BD3473 /* LymGCDTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		D555E38721CE191700BD3473 /* LymWeakTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LymWeakTarget.m; sourceTree = "<group>"; };
 		D555E38921CE1DC100BD3473 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		D555E38A21CE1DC100BD3473 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D555E38C21CE2A6900BD3473 /* LymGCDTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LymGCDTimer.h; sourceTree = "<group>"; };
+		D555E38D21CE2A6900BD3473 /* LymGCDTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LymGCDTimer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,17 +74,19 @@
 				D555E38321CE189600BD3473 /* NSTimer+LymTimerBlock.m */,
 				D555E38621CE191700BD3473 /* LymWeakTarget.h */,
 				D555E38721CE191700BD3473 /* LymWeakTarget.m */,
+				D555E38C21CE2A6900BD3473 /* LymGCDTimer.h */,
+				D555E38D21CE2A6900BD3473 /* LymGCDTimer.m */,
 				D555E36D21CE186600BD3473 /* AppDelegate.h */,
 				D555E36E21CE186600BD3473 /* AppDelegate.m */,
 				D555E37021CE186600BD3473 /* ViewController.h */,
 				D555E37121CE186600BD3473 /* ViewController.m */,
+				D555E38921CE1DC100BD3473 /* SecondViewController.h */,
+				D555E38A21CE1DC100BD3473 /* SecondViewController.m */,
 				D555E37321CE186600BD3473 /* Main.storyboard */,
 				D555E37621CE186700BD3473 /* Assets.xcassets */,
 				D555E37821CE186700BD3473 /* LaunchScreen.storyboard */,
 				D555E37B21CE186700BD3473 /* Info.plist */,
 				D555E37C21CE186700BD3473 /* main.m */,
-				D555E38921CE1DC100BD3473 /* SecondViewController.h */,
-				D555E38A21CE1DC100BD3473 /* SecondViewController.m */,
 			);
 			path = NSTimerLoop;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 				D555E38B21CE1DC100BD3473 /* SecondViewController.m in Sources */,
 				D555E37221CE186600BD3473 /* ViewController.m in Sources */,
 				D555E38521CE189600BD3473 /* NSTimer+LymTimerBlock.m in Sources */,
+				D555E38E21CE2A6900BD3473 /* LymGCDTimer.m in Sources */,
 				D555E37D21CE186700BD3473 /* main.m in Sources */,
 				D555E38821CE191700BD3473 /* LymWeakTarget.m in Sources */,
 				D555E36F21CE186600BD3473 /* AppDelegate.m in Sources */,
